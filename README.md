@@ -8,6 +8,7 @@ lang ValuesDesteklenen diller aşağıda listelenmiştir; ilk sütundaki dillerd
 
 
 
+
 ![Ekran görüntüsü 2023-12-12 191617](https://github.com/gulsevim-blbl/OpenSource_Api/assets/73358343/9d40a6e9-fe97-4603-9729-b287cbadfb65)
 
  
