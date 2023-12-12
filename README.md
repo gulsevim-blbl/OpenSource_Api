@@ -23,6 +23,9 @@ LANG Variable    ISO 639-1    Language Name    Localization (country)
 
  
 
+
+
+
 ![Almanca](https://github.com/gulsevim-blbl/OpenSource_Api/assets/73358343/df56b99e-dcd4-4ad4-b99f-5cd844e76d06)
 ![eng 1](https://github.com/gulsevim-blbl/OpenSource_Api/assets/73358343/80c349c1-163c-4708-9682-789a36cf8673)
 ![ispanyolca](https://github.com/gulsevim-blbl/OpenSource_Api/assets/73358343/4aeec873-0c96-4cbc-b83d-d168e617aaf2)
