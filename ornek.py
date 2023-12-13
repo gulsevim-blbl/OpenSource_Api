@@ -37,15 +37,15 @@ class Users(Resource):
             'city': [city]
         })
 
-        data = pd.read_csv('kullanici.csv')
+        data = pd.read_csv('users.csv')
         data = data.append(req_data, ignore_index=True)
-        data.to_csv('kullanici.csv', index=False)
+        data.to_csv('users.csv', index=False)
 
         return {'message': 'Record successfully added.'}, 201
 
 class Name(Resource):
     def get(self, name):
-        data = pd.read_csv('kullanici.csv')
+        data = pd.read_csv('users.csv')
         data = data.to_dict('records')
 
         for entry in data:
@@ -58,5 +58,5 @@ api.add_resource(Users, '/users')
 api.add_resource(Name, '/isim/<string:name>')
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=6767)
+    app.run(host="0.0.0.0", port=6768)
 
